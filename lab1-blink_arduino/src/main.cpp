@@ -21,10 +21,10 @@
 
 /* Includes ----------------------------------------------------------*/
 #include <avr/io.h>     // AVR device-specific IO definitions
-#include <util/delay.h> // Functions for busy-wait delay loops
+#include <util/delay.h> // Functions for busy-wait delay loopshalo
 
 
-// -----
+// 
 // This part is needed to use Arduino functions but also physical pin
 // names. We are using Arduino-style just to simplify the first lab.
 #include "Arduino.h"
