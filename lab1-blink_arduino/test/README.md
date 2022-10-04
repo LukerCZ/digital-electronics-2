@@ -44,6 +44,9 @@ int main(void)
 ```
 
 2. Scheme of Morse code application, i.e. connection of AVR device, LED, resistor, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
-// dokreslit v simullde!
 
-   ![Atmega schema](images/atmega_lab01.png)
+
+![image](https://user-images.githubusercontent.com/99397107/193883745-95ea8745-7ec5-4557-a7ef-8934230da848.png)
+
+
+![image](https://user-images.githubusercontent.com/99397107/193882626-76f157fc-156d-401a-9e00-6a86cf10355c.png)
