@@ -1,4 +1,4 @@
-# Lab 1: Martin Kováč
+# Lab 1: Lukáš Kudrna
 
 ### Morse code
 
@@ -6,7 +6,7 @@
 
 ```c
 /* Defines -----------------------------------------------------------*/
-#define LED_GREEN PB0   // PB5 is AVR pin where green on-board LED 
+#define LED_RED PB0   // PB5 is AVR pin where red on-board LED 
                         // is connected
 #define SHORT_DELAY 300 // Delay in milliseconds
 #define PAUSE 200 // Delay in milliseconds
@@ -18,7 +18,7 @@
 int main(void)
 {
     // Set pin where on-board LED is connected as output
-    pinMode(LED_GREEN, OUTPUT);
+    pinMode(LED_RED, OUTPUT);
 
     // Infinite loop
     while (1)
@@ -26,13 +26,13 @@ int main(void)
         // Generate a letter `A` Morse code
 
         // Change LED value
-        digitalWrite(LED_GREEN, HIGH);
+        digitalWrite(LED_RED, HIGH);
         _delay_ms(SHORT_DELAY);
-        digitalWrite(LED_GREEN, LOW);
+        digitalWrite(LED_RED, LOW);
          _delay_ms(PAUSE);
-        digitalWrite(LED_GREEN, HIGH);
+        digitalWrite(LED_RED, HIGH);
         _delay_ms(LONG_DELAY);
-        digitalWrite(LED_GREEN, LOW);
+        digitalWrite(LED_RED, LOW);
         _delay_ms(PAUSE);
         
 
