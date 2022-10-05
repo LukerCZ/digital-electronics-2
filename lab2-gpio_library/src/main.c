@@ -10,7 +10,7 @@
  **********************************************************************/
 /* Defines -----------------------------------------------------------*/
 #define LED_GREEN PB5 // PB5 is AVR pin where green on-board LED 
-#define BUTTON PD4                       // is connected
+#define BUTTON PD2                       // is connected
 //#define SHORT_DELAY 250 // Delay in milliseconds
 #ifndef F_CPU
 # define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
@@ -24,9 +24,9 @@
 // 
 // This part is needed to use Arduino functions but also physical pin
 // names. We are using Arduino-style just to simplify the first lab.
-#include <Arduino.h>
+#include "Arduino.h"
 #define PB5 13          // In Arduino world, PB5 is called "13"
-#define PD4 4// -----
+#define PD2// -----
 
 
 /* Function definitions ----------------------------------------------*/
@@ -45,14 +45,12 @@ int main(void)
     // Infinite loop
     while (1)
     {
-      if (GPIO_read(&PIND, BUTTON) == 0)
+      GPIO_read(&PIND, BUTTON)
+      if ( BUTTON == 1)
       
         GPIO_write_high(&PORTB, LED_GREEN);   // Set output high in PORTB reg
-        _delay_ms(250);
-
-        GPIO_write_low(&PORTB, LED_GREEN);   // Set output low in PORTB reg
-        _delay_ms(250);
-      
+      else
+        GPIO_write_low(&PORTB, LED_GREEN);   // Set output low in PORTB reg  
     }
 
     // Will never reach this
