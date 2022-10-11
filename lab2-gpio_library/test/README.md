@@ -1,4 +1,4 @@
-# Lab 2: LUKÁŠ KUDRNA
+# Lab 2: Lukáš Kudrna
 
 ### GPIO control registers
 
