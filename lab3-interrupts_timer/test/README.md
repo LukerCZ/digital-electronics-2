@@ -1,4 +1,4 @@
-# Lab 3: YOUR_FIRSTNAME LASTNAME
+# Lab 3: Lukáš Kudrna
 
 ### Overflow times
 
@@ -7,7 +7,7 @@
    | **Module** | **Number of bits** | **1** | **8** | **32** | **64** | **128** | **256** | **1024** |
    | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
    | Timer/Counter0 | 8  | 16u | 128u | -- | | -- | | |
-   | Timer/Counter1 | 16 |     |      | -- | | -- | | |
+   | Timer/Counter1 | 16 | |      | -- | | -- | | |
    | Timer/Counter2 | 8  |     |      |    | |    | | |
 
 ### Interrupts
