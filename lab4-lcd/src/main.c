@@ -68,7 +68,7 @@ int main(void)
 
     // Enables interrupts by setting the global interrupt mask
     sei();
-    
+
     // CUSTOM CHARS
     /*uint8_t customChar[8] = { 
         0b11001,
@@ -117,8 +117,8 @@ ISR(TIMER2_OVF_vect)
 {
     static uint8_t no_of_overflows = 0;
     static uint8_t tenths = 0;  // Tenths of a second
-    static uint8_t seconds = 0;
-    static uint8_t minutes = 0;
+    static uint8_t seconds = 55;
+    static uint8_t minutes = 1;
     char string[2];             // String for converted numbers by itoa()
 
     no_of_overflows++;
@@ -138,7 +138,14 @@ ISR(TIMER2_OVF_vect)
           {
             seconds = 0;
             minutes++;
+            
           }
+          itoa(minutes, string, 10);
+          lcd_gotoxy(1, 0);
+          if (minutes < 10 )
+            lcd_putc('0');
+          lcd_puts(string);
+          
           itoa(seconds, string, 10);
           lcd_gotoxy(4, 0);
           if (seconds < 10 )
