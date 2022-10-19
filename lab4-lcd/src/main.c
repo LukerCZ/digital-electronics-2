@@ -117,8 +117,9 @@ ISR(TIMER2_OVF_vect)
 {
     static uint8_t no_of_overflows = 0;
     static uint8_t tenths = 0;  // Tenths of a second
-    static uint8_t seconds = 55;
-    static uint8_t minutes = 1;
+    static uint8_t seconds = 0;
+    static uint8_t minutes = 0;
+    static uint8_t squaresec = 0;
     char string[2];             // String for converted numbers by itoa()
 
     no_of_overflows++;
@@ -151,12 +152,18 @@ ISR(TIMER2_OVF_vect)
           if (seconds < 10 )
             lcd_putc('0');
           lcd_puts(string);
+          squaresec = seconds*seconds;
+          itoa(squaresec, string, 10);
+          lcd_gotoxy(11, 0);
+          lcd_puts(string);
+          
         }
 
         itoa(tenths, string, 10);  // Convert decimal value to string
         // Display "00:00.tenths"
         lcd_gotoxy(7, 0);
         lcd_puts(string);
+        
     }
     // Else do nothing and exit the ISR
 }
