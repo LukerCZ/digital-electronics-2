@@ -119,7 +119,7 @@ ISR(TIMER2_OVF_vect)
     static uint8_t tenths = 0;  // Tenths of a second
     static uint8_t seconds = 0;
     static uint8_t minutes = 0;
-    static uint8_t squaresec = 0;
+    static uint32_t squaresec = 0;
     char string[2];             // String for converted numbers by itoa()
 
     no_of_overflows++;
@@ -156,14 +156,29 @@ ISR(TIMER2_OVF_vect)
           itoa(squaresec, string, 10);
           lcd_gotoxy(11, 0);
           lcd_puts(string);
-          
         }
 
         itoa(tenths, string, 10);  // Convert decimal value to string
         // Display "00:00.tenths"
         lcd_gotoxy(7, 0);
         lcd_puts(string);
-        
+    uint8_t customChar[8] = { 
+        0b11111,
+        0b11111,
+        0b11111,
+        0b11111,
+        0b11111,
+        0b11111,
+        0b11111,
+        0b11111
+      };
+
+    lcd_command(1<<LCD_CGRAM);       // Set addressing to CGRAM (Character Generator RAM)
+                                     // ie to individual lines of character patterns
+    for (uint8_t i = 0; i < 8; i++)  // Copy new character patterns line by line to CGRAM
+        lcd_data(customChar[i]);
+    lcd_command(1<<LCD_DDRAM);       // Set addressing back to DDRAM (Display Data RAM)
+    lcd_gotoxy(1, 1);                                // ie to character codes    
     }
     // Else do nothing and exit the ISR
 }
