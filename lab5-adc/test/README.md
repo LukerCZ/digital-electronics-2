@@ -10,8 +10,8 @@
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
    | Up     | 0.495&nbsp;V | 101 | 99 | 63 |
    | Down   | 1.203&nbsp;V | 246 | 256 | 100 |
-   | Left   | 2.468&nbsp;V | 505 | 408 | 198 |
-   | Select | 3.620&nbsp;V | 741 | 638 | 27e |
+   | Left   | 2.468&nbsp;V | 409 | 408 | 198 |
+   | Select | 3.620&nbsp;V | 638 | 638 | 27e |
    | none   | 5.000&nbsp;V | 1023 | 1023 | 3ff |
 
 ### Temperature meter
