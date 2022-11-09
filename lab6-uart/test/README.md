@@ -22,8 +22,8 @@
 
 2. Draw timing diagram of the output from UART/USART when transmitting three character data `De2` in 4800 7O2 mode (7 data bits, odd parity, 2 stop bits, 4800&nbsp;Bd). The image can be drawn on a computer or by hand. Name all parts timing diagram.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99397107/200632170-04fefd92-a6a7-4167-80c2-5d73d95e029c.png)
 
 3. Draw a flowchart for function `uint8_t get_parity(uint8_t data, uint8_t type)` which calculates a parity bit of input 8-bit `data` according to parameter `type`. The image can be drawn on a computer or by hand. Use clear descriptions of individual algorithm steps.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99397107/200655778-27b33676-11ce-4958-9f78-84b59ee0a816.png)
