@@ -5,7 +5,7 @@
 1. In the picture of the Arduino Uno board, mark the pins that can be used for the following functions/operations:
    * PWM generators from Timer0, Timer1, Timer2 (RED)
    * analog channels for ADC (GREEN)
-   * UART pins
+   * UART pins (YELLOW)
    * I2C pins (GREY)
    * SPI pins (PINK)
    * external interrupt pins INT0, INT1 (BLUE)
@@ -24,4 +24,4 @@ Consider an application for temperature and humidity measurements. Use sensor DH
 
 3. Draw a flowchart of `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) for such Meteo station. The image can be drawn on a computer or by hand. Use clear description of individual algorithm steps.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99397107/202035570-0630d492-1abc-453c-a82d-c668040586d7.png)
