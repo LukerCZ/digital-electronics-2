@@ -134,17 +134,32 @@ ISR(TIMER1_OVF_vect)
     // Multiply-and-accumulate Assembly example
     uint8_t a = 2;
     uint8_t b = 3;
-    value = multiply_accumulate_asm(value, a, b);
+    /*value = multiply_accumulate_asm(value, a, b);
     itoa(value, string, 10);
     uart_puts(string);
-    uart_puts("\r\n");
+    uart_puts("\r\n");*/
+
+    
+    
+    
+    
 
 
     // LFSR generator
     // Transmit LFSR value via UART in decimal
-
+    value = lfsr4_fibonacci_asm(value);
     // Generate one LFSR value and increment number of generated LFSR values
-
+    itoa(value, string, 10);
+    uart_puts(string);
+    uart_puts(" ");
+    no_of_values++;
     // If LFSR value is equal to 0 then print length info and start again
-
+    if (value == 0)
+    {
+        uart_puts(" Seuquence lenght:");
+        itoa(no_of_values, string, 10);
+        uart_puts(string);
+        uart_puts("\r\n");
+        no_of_values=0;
+    }
 }
