@@ -1,4 +1,4 @@
-# Lab 8: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 8: Lukáš Kudrna
 
 ### Instruction set
 
@@ -6,10 +6,10 @@
 
    | **Instruction** | **Binary opcode** | **Hex opcode** | **Compiler Hex opcode** |
    | :-- | :-: | :-: | :-: |
-   | `add r24, r0` |  |  |  |
-   | `com r26` |  |  |  |
-   | `eor r26, r27` |  |  |  |
-   | `mul r22, r20` |  |  |  |
+   | `add r24, r0` | `0000_1101_1000_0000` | `D 80` |  |
+   | `com r26` | `1001_0101_1010_0000` | `95 A0` |  |
+   | `eor r26, r27` | `0010_0111_1010_0011` | `27 A3` |  |
+   | `mul r22, r20` | `0010_0111_0110_0100` | `27 64` |  |
    | `ret` | `1001_0101_0000_1000` | `95 08` |  |
 
 ### 4-bit LFSR
@@ -18,9 +18,9 @@
 
    | **Tap position** | **Generated values** | **Length** |
    | :-: | :-- | :-: |
-   | 4, 3 |  |  |
-   | 4, 2 |  |  |
-   | 4, 1 |  |  |
+   | 4, 3 | 1 3 7 15 14 12 8 0 | 8 |
+   | 4, 2 | 1 3 7 14 13 11 6 12 9 2 5 10 4 8 0  | 15 |
+   | 4, 1 | 1 3 6 12 8 0  | 6 |
 
 ### Variable number of short pulses
 
