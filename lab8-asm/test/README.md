@@ -1,4 +1,4 @@
-# Lab 8: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 8: Lukáš Kudrna
 
 ### Instruction set
 
@@ -6,7 +6,7 @@
 
    | **Instruction** | **Binary opcode** | **Hex opcode** | **Compiler Hex opcode** |
    | :-- | :-: | :-: | :-: |
-   | `add r24, r0` |  |  |  |
+   | `add r24, r0` | `0000 11rd dddd rrrr` |  |  |
    | `com r26` |  |  |  |
    | `eor r26, r27` |  |  |  |
    | `mul r22, r20` |  |  |  |
