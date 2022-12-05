@@ -11,10 +11,12 @@
 
 
 /* Defines -----------------------------------------------------------*/
-#define LED_GREEN PB5   // PB5 is AVR pin where green on-board LED 
+//#define LED_GREEN PB5   // PB5 is AVR pin where green on-board LED 
 #define LED_RED   PB0
                         // is connected
-#define SHORT_DELAY 500 // Delay in milliseconds
+#define SHORT_DELAY 1000 // Delay in milliseconds
+#define LONG_DELAY 2000
+#define PAUSE 6000 
 #ifndef F_CPU
 # define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
 #endif
@@ -22,13 +24,10 @@
 /* Includes ----------------------------------------------------------*/
 #include <avr/io.h>     // AVR device-specific IO definitions
 #include <util/delay.h> // Functions for busy-wait delay loopshalo
-
-
-// 
 // This part is needed to use Arduino functions but also physical pin
 // names. We are using Arduino-style just to simplify the first lab.
 #include "Arduino.h"
-#define PB5 13          // In Arduino world, PB5 is called "13"
+//#define PB5 13          // In Arduino world, PB5 is called "13"
 #define PB0 8 
 // -----
 
@@ -42,24 +41,31 @@
 int main(void)
 {
     uint8_t led_value = LOW;  // Local variable to keep LED status
+    uint8_t delay = SHORT_DELAY;
 
     // Set pin where on-board LED is connected as output
-    pinMode(LED_GREEN, OUTPUT);
+    //pinMode(LED_GREEN, OUTPUT);
     pinMode(LED_RED, OUTPUT);
     // Infinite loop
     while (1)
     {
         // Change LED value
-        if (led_value == LOW)
+        /*if (led_value == LOW)
             led_value = HIGH;
         else
             led_value = LOW;
-
-        // Pause several milliseconds
+        */
+        digitalWrite(LED_RED,!led_value);
         _delay_ms(SHORT_DELAY);
+        digitalWrite(LED_RED,led_value);
+        // Pause several milliseconds
+        _delay_ms(LONG_DELAY);
+        digitalWrite(LED_RED,!led_value);
+        _delay_ms(PAUSE);
+
         // Turn ON/OFF on-board LED
-        digitalWrite(LED_GREEN, led_value);
-        digitalWrite(LED_RED,  !led_value);
+        //digitalWrite(LED_GREEN, led_value);
+        
     }
 
     // Will never reach this
