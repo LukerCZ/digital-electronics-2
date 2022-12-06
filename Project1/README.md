@@ -1,4 +1,4 @@
-### Členové týmu:
+### Team members:
 
 * Martin Kováč 
   (responsible for programing encoder, joystick, flowchart diagram, editing video documentation)
