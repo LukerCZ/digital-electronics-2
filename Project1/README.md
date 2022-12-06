@@ -10,6 +10,28 @@ Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder,
 
 ## Cíl projektu
 
+## GitHub repository structure
+
+   ```c
+   Project1       // PlatfomIO project
+   ├── include         // Included files
+           └── timer.h
+   ├── lib             // Libraries
+        └── gpio
+              └── gpio.c
+              └── gpio.h
+        └── lcd
+              └── lcd.c
+              └── lcd.h
+              └── lcd_definitions.h
+        └── uart
+              └── uart.c
+              └── uart.h
+   ├── src             // Source file(s)
+   │   └── main.c
+   ├── platformio.ini  // Project Configuration File
+   └── README.md       // Report of this project
+   ```
 
 ## Hardware description
 
