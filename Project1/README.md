@@ -1,9 +1,9 @@
 ### Členové týmu:
 
 * Martin Kováč 
-  (responsible for xxx)
+  (responsible for programing encoder, joystick, flowchart diagram, editing video documentation)
 * Lukáš Kudrna 
-  pracoval na programování lcd displeje, tvorbě videa, Popisu hardwaru a celkovému designu dokumentace
+  (responsible for programing LCD display, creating video, hardware description and desing of README file)
 ## Zadání projektu
 
 Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder, and Digilent PmodCLP LCD module.
