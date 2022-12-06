@@ -4,11 +4,11 @@
   (responsible for programing encoder, joystick, flowchart diagram, editing video documentation)
 * Lukáš Kudrna 
   (responsible for programing LCD display, creating video, hardware description and desing of README file)
-## Zadání projektu
+##  Project assignment
 
 Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder, and Digilent PmodCLP LCD module.
 
-## Cíl projektu
+## Goal of project
 
 ## GitHub repository structure
 
