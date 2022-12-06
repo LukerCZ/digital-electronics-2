@@ -3,7 +3,13 @@
 * Martin Kováč 
   (responsible for xxx)
 * Lukáš Kudrna 
-  (responsible for xxx)
+  pracoval na programování lcd displeje, tvorbě videa, Popisu hardwaru a celkovému designu dokumentace
+## Zadání projektu
+
+Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder, and Digilent PmodCLP LCD module.
+
+## Cíl projektu
+
 
 ## Hardware description
 
