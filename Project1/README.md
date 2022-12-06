@@ -1,7 +1,9 @@
-### Team members
+### Členové týmu:
 
-* Martin Kováč (responsible for xxx)
-* Lukáš Kudrna (responsible for xxx)
+* Martin Kováč 
+  (responsible for xxx)
+* Lukáš Kudrna 
+  (responsible for xxx)
 
 ## Hardware description
 
