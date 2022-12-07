@@ -133,5 +133,5 @@ In the code we used several libraries, which we used in computer exercises, e.g.
 1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
 3. [doc.Tomas Fryza - Github repository](https://github.com/tomas-fryza/digital-electronics-2)
-4. [LCD Display](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
-5. [Pmod CLP Digilent](https://digilent.com/reference/pmod/pmodclp/start)
+4. [LCD Display TME.eu](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
+5. [Pmod CLP Digilent.com](https://digilent.com/reference/pmod/pmodclp/start)
