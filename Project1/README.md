@@ -60,6 +60,7 @@ Pins A0,A1:
 
 A rotary encoder is a type of position sensor which is used for determining the angular position of a rotating shaft.
 
+
 #### Picture of Rotary encoder
 
 ![image](https://user-images.githubusercontent.com/99397107/206244784-1666e0fa-362f-454a-a951-e469fa56a3ee.png)
@@ -72,9 +73,9 @@ A rotary encoder is a type of position sensor which is used for determining the 
 ![image](https://user-images.githubusercontent.com/99397107/206244863-2d7fd3a4-f4a9-4f3d-81b2-08b04868e658.png)
 
 
-### LCD Display
+### Digilent PmodCLP LCD module
 
-#### Picture of LCD Display
+#### Picture of Digilent PmodCLP LCD module
 
 ![image](https://user-images.githubusercontent.com/99397107/206245679-0a12edba-6958-43a8-bd3e-b9093a0d50b6.png)
 
