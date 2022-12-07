@@ -91,6 +91,7 @@ Joystick consist of two potenciometers which decide on what position is joystick
 
 The Digilent Pmod CLP  is a 16×2 character LCD module that uses a 8-bit parallel data interface to let system boards display up to 32 different characters out of over 200 possible options.
 
+LDC (liquid-crystal display) is a flat-panel display that uses the light-modulating properties of liquid crystals combined with polarizers. Liquid crystals do not emit light directly but instead use a backlight or reflector to produce images in color or monochrome.
 
 
 #### Picture of Digilent PmodCLP LCD module
@@ -122,7 +123,7 @@ In the code we used several libraries, which we used in computer exercises, e.g.
 
 ## Video
 
-[YOUTUBE](https://youtu.be/-ML_NZQIerQ)
+[YOUTUBE] (https://youtu.be/-ML_NZQIerQ)
 
 ## References
 
