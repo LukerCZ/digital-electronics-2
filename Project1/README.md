@@ -122,7 +122,7 @@ In the code we used several libraries, which we used in computer exercises, e.g.
 
 ## Video
 
-Insert a link to a short video with your practical implementation example (1-3 minutes, e.g. on YouTube).
+[YOUTUBE] (https://youtu.be/-ML_NZQIerQ)
 
 ## References
 
