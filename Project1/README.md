@@ -95,7 +95,8 @@ Our project is created with help of using open source software [SimulIDE](https:
 ## Software description
 
 #### Joystick flowchart 
-![image](https://user-images.githubusercontent.com/99397107/206258631-f457644a-05f9-458e-8f06-3270dd314138.png)
+![joystick drawio](https://user-images.githubusercontent.com/99397107/206262503-7c842613-7dab-4721-96d7-a3c62a214442.png)
+
 
 #### Encoder flowchart
 ![Encoder_flowchart](https://user-images.githubusercontent.com/99388246/206261689-cbcd090a-0ae1-46d7-9212-aeac0e6bc2cd.png)
