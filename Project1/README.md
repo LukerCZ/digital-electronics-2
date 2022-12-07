@@ -35,12 +35,12 @@ Application of analog joy-stick (2 ADC channels), rotary encoder, and Digilent P
 
 ### Arduino UNO
 
-Arduino UNO is main part of our project for practical solution. The board is based on ATMega328 microcontroller and was developed by [Arduino.cc](https://www.arduino.cc/). The pinout consist of 14 digital I/O pins, 6 analog pins, 5 V and 3,3 V output
+Arduino UNO is main part of our project for practical solution. The board is based on ATMega328 microcontroller and was developed by [Arduino.cc](https://www.arduino.cc/). The pinout consist of 14 digital I/O pins, 6 analog pins and power pins.
 
 #### Arduino UNO pinout
 ![ArduinoUNO pinout](https://user-images.githubusercontent.com/99397107/206240652-9ad594d9-998e-4e33-b061-4f60213628ff.png)
 
-In Project we are using these pins:
+#### In Project we are using these pins:
 
 Pins (4 to 7):
 - for sending data to LCD display
@@ -99,7 +99,7 @@ LDC (liquid-crystal display) is a flat-panel display that uses the light-modulat
 ![image](https://user-images.githubusercontent.com/99397107/206245679-0a12edba-6958-43a8-bd3e-b9093a0d50b6.png)
 
 
-### Schematic 
+### Schematic done in SimulIDE (see below)
 ![image](https://user-images.githubusercontent.com/99388246/206135543-d520f35a-fe99-46e8-9b13-a4d9bda0a5a3.png)
 
 ## Software description
@@ -107,8 +107,8 @@ LDC (liquid-crystal display) is a flat-panel display that uses the light-modulat
 ### SimulIDE
 Our project is created with help of using free to use software [SimulIDE](https://www.simulide.com/).
 
-In the software we can simulate many virtual processes. We used it esspecially for simulating Arduino Uno microcontroller and other components.
-The simulators virtual components are accomplished their purpose as real hardware parts.
+In the software we can simulate many virtual processes. We used it especially for simulating Arduino Uno microcontroller and other components.
+The simulators virtual components served the purpose as real hardware parts.
 
 #### Joystick flowchart 
 ![joystick drawio](https://user-images.githubusercontent.com/99397107/206262503-7c842613-7dab-4721-96d7-a3c62a214442.png)
