@@ -89,6 +89,8 @@ Joystick consist of two potenciometers which decide on what position is joystick
 
 ### Digilent PmodCLP LCD module
 
+The Digilent Pmod CLP  is a 16×2 character LCD module that uses a 8-bit parallel data interface to let system boards display up to 32 different characters out of over 200 possible options.
+
 
 
 #### Picture of Digilent PmodCLP LCD module
