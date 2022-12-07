@@ -87,7 +87,7 @@ A rotary encoder is a type of position sensor which is used for determining the 
 ### Schematic 
 ![image](https://user-images.githubusercontent.com/99388246/206135543-d520f35a-fe99-46e8-9b13-a4d9bda0a5a3.png)
 
-###SimulIDE
+### SimulIDE
 Our project is created with help of using open source software [SimulIDE](https://www.simulide.com/)
 
 ## Software description
