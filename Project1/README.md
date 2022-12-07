@@ -89,6 +89,8 @@ Joystick consist of two potenciometers which decide on what position is joystick
 
 ### Digilent PmodCLP LCD module
 
+
+
 #### Picture of Digilent PmodCLP LCD module
 
 ![image](https://user-images.githubusercontent.com/99397107/206245679-0a12edba-6958-43a8-bd3e-b9093a0d50b6.png)
@@ -124,4 +126,5 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
-3. [doc.Tomas Fryza](https://github.com/tomas-fryza/digital-electronics-2)
+3. [doc.Tomas Fryza- github](https://github.com/tomas-fryza/digital-electronics-2)
+4. [LCD Display](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
