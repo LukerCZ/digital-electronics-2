@@ -59,6 +59,11 @@ Pins A0,A1:
 ### Rotary Encoder
 
 A rotary encoder is a type of position sensor which is used for determining the angular position of a rotating shaft.
+#### How is it working?
+
+![image](https://user-images.githubusercontent.com/99397107/206248116-1297b669-9691-44b1-a153-a8a07bf2b787.png)
+
+![image](https://user-images.githubusercontent.com/99397107/206248205-ba340ce6-1494-4b53-9a13-c28b3af4bf72.png)
 
 #### Picture of Rotary encoder
 
@@ -72,9 +77,9 @@ A rotary encoder is a type of position sensor which is used for determining the 
 ![image](https://user-images.githubusercontent.com/99397107/206244863-2d7fd3a4-f4a9-4f3d-81b2-08b04868e658.png)
 
 
-### LCD Display
+### Digilent PmodCLP LCD module
 
-#### Picture of LCD Display
+#### Picture of Digilent PmodCLP LCD module
 
 ![image](https://user-images.githubusercontent.com/99397107/206245679-0a12edba-6958-43a8-bd3e-b9093a0d50b6.png)
 
@@ -87,15 +92,7 @@ Our project is created with help of using open source software [SimulIDE](https:
 
 ## Software description
 
-In the code we used libriries, which we used in computer exercices, e.g. timer, gpio and lcd.
-
-1. **Timer:** [timer.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/include/timer.h)
-
-2. **Gpio:** [gpio.c](https://github.com/LukerCZ/digital-electronics-2/tree/main/Project1/lib/gpio)
-
-3. **LCD:** [lcd.c](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd.c), [lcd.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd.h), [lcd_definitions.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd_definitions.h)
-
-4. **Source:** [main.c](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/src/main.c)
+Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
 
 ## Video
 
