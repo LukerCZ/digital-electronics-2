@@ -61,7 +61,11 @@ Pins A0,A1:
 A rotary encoder is a type of position sensor which is used for determining the angular position of a rotating shaft.
 #### How is it working?
 
+
 ![image](https://user-images.githubusercontent.com/99397107/206248116-1297b669-9691-44b1-a153-a8a07bf2b787.png)
+
+On the picture above there are two output signals which are phased by 90 degrees between each other.
+If we compare both signals at the moment there can be two states: :Opposite values (A != B) - Encoder is rotating clockwise Same values (A = B) - Encoder is rotating counter-clockwise
 
 ![image](https://user-images.githubusercontent.com/99397107/206248205-ba340ce6-1494-4b53-9a13-c28b3af4bf72.png)
 
