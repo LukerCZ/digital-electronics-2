@@ -92,6 +92,11 @@ Our project is created with help of using open source software [SimulIDE](https:
 
 ## Software description
 
+#### Joystick flowchart 
+![image](https://user-images.githubusercontent.com/99397107/206258631-f457644a-05f9-458e-8f06-3270dd314138.png)
+
+#### Encoder flowchart
+
 In the code we used several libraries, which we used in computer exercises, e.g. timer, gpio and lcd.
 
 1. **Timer:** [timer.h](https://github.com/xsedla1y/digital-electronics-2/blob/main/Project1/include/timer.h)
