@@ -6,7 +6,7 @@
   (responsible for programing LCD display, creating video, hardware description and desing of README file)
 ##  Project assignment
 
-Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder, and Digilent PmodCLP LCD module.
+Application of analog joy-stick (2 ADC channels), rotary encoder, and Digilent PmodCLP LCD module.
 
 ## GitHub repository structure
 
