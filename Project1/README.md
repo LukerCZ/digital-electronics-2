@@ -80,7 +80,7 @@ For better imagination you can see picture below:
 
 ### Joystick
 
-Joystick consist of two potenciometers which decide on what position is joystick turned. By reading a values from potenciometers we can convert this into position of X and Y axis in outr program.  
+Joystick consist of two potenciometers which decide on what position is joystick turned. By reading a values from potenciometers we can convert this into position of X and Y axis.  
 
 #### Picture of Joystick
 
