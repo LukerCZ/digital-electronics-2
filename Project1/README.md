@@ -130,3 +130,4 @@ Insert a link to a short video with your practical implementation example (1-3 m
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
 3. [doc.Tomas Fryza - Github repository](https://github.com/tomas-fryza/digital-electronics-2)
 4. [LCD Display](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
+5. [Pmod CLP Digilent](https://digilent.com/reference/pmod/pmodclp/start)
