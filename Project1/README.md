@@ -47,5 +47,5 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 ## References
 
-1.https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/                                                                         
+1. https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/                                                                         
 2. https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno
