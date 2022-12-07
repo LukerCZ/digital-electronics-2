@@ -126,5 +126,5 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
-3. [doc.Tomas Fryza- github](https://github.com/tomas-fryza/digital-electronics-2)
+3. [doc.Tomas Fryza - Github repository](https://github.com/tomas-fryza/digital-electronics-2)
 4. [LCD Display](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
