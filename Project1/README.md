@@ -63,7 +63,13 @@ A rotary encoder is a type of position sensor which is used for determining the 
 ![image](https://user-images.githubusercontent.com/99397107/206248116-1297b669-9691-44b1-a153-a8a07bf2b787.png)
 
 On the picture above there are two output signals which are phased by 90 degrees between each other.
-If we compare both signals at the moment there can be two states: :Opposite values (A != B) - Encoder is rotating clockwise Same values (A = B) - Encoder is rotating counter-clockwise
+If we compare both signals at the moment there can be two states: 
+
+Opposite values (A != B): Encoder is rotating clockwise 
+
+Same values (A = B): Encoder is rotating counter-clockwise
+
+For better imagination you can see picture below:
 
 ![image](https://user-images.githubusercontent.com/99397107/206248205-ba340ce6-1494-4b53-9a13-c28b3af4bf72.png)
 
@@ -73,6 +79,10 @@ If we compare both signals at the moment there can be two states: :Opposite valu
 
 
 ### Joystick
+
+Joystick consist of two potenciometers which decide on what position is joystick turned. By reading a values from potenciometers we can convert this into position of X and Y axis in outr program. 
+
+can detect motion of X and Y axis. 
 
 #### Picture of Joystick
 
@@ -89,10 +99,10 @@ If we compare both signals at the moment there can be two states: :Opposite valu
 ### Schematic 
 ![image](https://user-images.githubusercontent.com/99388246/206135543-d520f35a-fe99-46e8-9b13-a4d9bda0a5a3.png)
 
+## Software description
+
 ### SimulIDE
 Our project is created with help of using open source software [SimulIDE](https://www.simulide.com/)
-
-## Software description
 
 #### Joystick flowchart 
 ![joystick drawio](https://user-images.githubusercontent.com/99397107/206262503-7c842613-7dab-4721-96d7-a3c62a214442.png)
@@ -116,4 +126,4 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
-3. [doc.Tomas Fryza - GITHUB](https://github.com/tomas-fryza/digital-electronics-2)
+3. [doc.Tomas Fryza](https://github.com/tomas-fryza/digital-electronics-2)
