@@ -116,4 +116,4 @@ Insert a link to a short video with your practical implementation example (1-3 m
 
 1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
-3. [doc.Tomas Fryza](https://github.com/tomas-fryza/digital-electronics-2)
+3. [doc.Tomas Fryza - GITHUB](https://github.com/tomas-fryza/digital-electronics-2)
