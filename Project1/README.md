@@ -92,7 +92,12 @@ Our project is created with help of using open source software [SimulIDE](https:
 
 ## Software description
 
-Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
+In the code we used several libraries, which we used in computer exercises, e.g. timer, gpio and lcd.
+
+1. **Timer:** [timer.h](https://github.com/xsedla1y/digital-electronics-2/blob/main/Project1/include/timer.h)
+ 2. **Gpio:** [gpio.c](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/gpio/gpio.c), [gpio.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/gpio/gpio.h)
+ 3. **LCD:** [lcd.c](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd.c), [lcd.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd.h), [lcd_definitions.h](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/lib/lcd/lcd_definitions.h)
+ 4. **Source:** [main.c](https://github.com/LukerCZ/digital-electronics-2/blob/main/Project1/src/main.c)
 
 ## Video
 
