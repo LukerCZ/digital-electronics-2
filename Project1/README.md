@@ -35,7 +35,7 @@ Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder,
 
 ## Hardware description
 
-Insert descriptive text and schematic(s) of your implementation.
+![image](https://user-images.githubusercontent.com/99388246/206134730-4e71caef-93fd-4916-9730-3ba2d70f4bd9.png)
 
 ## Software description
 
