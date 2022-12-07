@@ -105,7 +105,10 @@ LDC (liquid-crystal display) is a flat-panel display that uses the light-modulat
 ## Software description
 
 ### SimulIDE
-Our project is created with help of using open source software [SimulIDE](https://www.simulide.com/)
+Our project is created with help of using free to use software [SimulIDE](https://www.simulide.com/).
+
+In the software we can simulate many virtual processes. We used it esspecially for simulating Arduino Uno microcontroller and other components.
+The simulator is almost same as real hardware parts.
 
 #### Joystick flowchart 
 ![joystick drawio](https://user-images.githubusercontent.com/99397107/206262503-7c842613-7dab-4721-96d7-a3c62a214442.png)
