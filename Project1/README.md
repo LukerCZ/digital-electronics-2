@@ -8,8 +8,6 @@
 
 Application of analog joy-stick (2 ADC channels, 1 push button), rotary encoder, and Digilent PmodCLP LCD module.
 
-## Goal of project
-
 ## GitHub repository structure
 
    ```c
@@ -100,6 +98,7 @@ Our project is created with help of using open source software [SimulIDE](https:
 ![image](https://user-images.githubusercontent.com/99397107/206258631-f457644a-05f9-458e-8f06-3270dd314138.png)
 
 #### Encoder flowchart
+![Encoder_flowchart](https://user-images.githubusercontent.com/99388246/206261689-cbcd090a-0ae1-46d7-9212-aeac0e6bc2cd.png)
 
 In the code we used several libraries, which we used in computer exercises, e.g. timer, gpio and lcd.
 
