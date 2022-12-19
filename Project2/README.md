@@ -46,6 +46,8 @@ Pins (4 to 7):
 
 ### LCD Display
 In project we use Digilent Pmod CLP type of display.
+![image](https://user-images.githubusercontent.com/99397107/208475575-fb0275c5-837c-48a2-95b8-ad3fa28e1195.png)
+
 
 ### Servo motor SG90
 
