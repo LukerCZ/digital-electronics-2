@@ -1,12 +1,12 @@
 ### Team members:
 
 * Martin Kováč 
-  (responsible for programing encoder, joystick, flowchart diagrams, editing video documentation)
+  (responsible for )
 * Lukáš Kudrna 
-  (responsible for programing LCD display, creating video, hardware description)
+  (responsible for )
 ##  Project assignment
 
-Application of analog joy-stick (2 ADC channels), rotary encoder, and Digilent PmodCLP LCD module.
+Precise generation of several PWM channels. Application of two (or more) Servo motors SG90.
 
 ## GitHub repository structure
 
@@ -44,7 +44,7 @@ Arduino UNO is main part of our project for practical solution. The board is bas
 
 Pins (4 to 7):
 
-### Servo motors
+### Servo motor SG90
 
 
 ![image](https://user-images.githubusercontent.com/99397107/208473686-af5cdb99-ddcb-4c06-9ea9-8a25f7682b6b.png)
