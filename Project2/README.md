@@ -54,8 +54,6 @@ Ground,Vcc: Power pins (+5V, GND)
 
 ![image](https://user-images.githubusercontent.com/99397107/208475296-6c30ba24-3230-40fc-b43e-f81d56fa7923.png)
 
-![image](https://user-images.githubusercontent.com/99397107/208473686-af5cdb99-ddcb-4c06-9ea9-8a25f7682b6b.png)
-
 ## Software description
 
 ### SimulIDE
