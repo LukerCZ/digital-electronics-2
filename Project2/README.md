@@ -62,6 +62,8 @@ In project we use Digilent Pmod CLP type of display.
 ### SimulIDE
 Our project is created with help of using free to use software [SimulIDE](https://www.simulide.com/).
 
+<img width="689" alt="Snímka obrazovky 2022-12-20 o 20 33 32" src="https://user-images.githubusercontent.com/99388246/208751347-dfae1fe9-9d9e-4f8b-bdec-0ff0257522d8.png">
+
 In the software we can simulate many virtual processes. We used it especially for simulating Arduino Uno microcontroller and other components.
 The simulators virtual components served the purpose as real hardware parts.
 
