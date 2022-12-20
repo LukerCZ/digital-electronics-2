@@ -42,9 +42,12 @@ Arduino UNO is main part of our project for practical solution. The board is bas
 
 #### In Project we are using these pins:
 
-Pin (8): Button
+Button: Pin (8)
+
 Servomotor 1: Pin (9)
+
 Servomotor 2: Pin (9)
+
 Ground,Vcc: Power pins (+5V, GND)
 
 ### LCD Display
