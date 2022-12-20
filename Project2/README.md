@@ -69,11 +69,11 @@ The simulators virtual components served the purpose as real hardware parts.
 
 #### Servomotor flowchart 
 ##### Flowchart when button is pressed
+
 ![image](https://user-images.githubusercontent.com/99397107/208764260-d91511ac-0e73-4ae4-8827-4dce693f1f3a.png)
 
-
-
-
+##### Flowchart for PCINT0_vect interupt
+![image](https://user-images.githubusercontent.com/99397107/208769777-12fc2d50-8d07-4206-9259-e8857f3967ad.png)
 
 In the code we used several libraries, which we used in computer exercises, e.g. timer, gpio and lcd.
 
@@ -84,7 +84,7 @@ In the code we used several libraries, which we used in computer exercises, e.g.
 
 ## Video
 
-[YOUTUBE](https://youtu.be/c5YOwA-SAN4)
+[YOUTUBE](https://youtu.be/-ML_NZQIerQ)
 
 ## References
 
