@@ -1,9 +1,9 @@
 ### Team members:
 
 * Martin Kováč 
-  (responsible for )
+  (responsible for programing, creating video and simulation in SimulIde)
 * Lukáš Kudrna 
-  (responsible for )
+  (responsible for project documentation, flowcharts)
 ##  Project assignment
 
 Precise generation of several PWM channels. Application of two (or more) Servo motors SG90.
