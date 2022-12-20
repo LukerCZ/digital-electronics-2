@@ -68,6 +68,7 @@ In the software we can simulate many virtual processes. We used it especially fo
 The simulators virtual components served the purpose as real hardware parts.
 
 #### Servomotor flowchart 
+![image](https://user-images.githubusercontent.com/99397107/208764260-d91511ac-0e73-4ae4-8827-4dce693f1f3a.png)
 ![joystick drawio](https://user-images.githubusercontent.com/99397107/206262503-7c842613-7dab-4721-96d7-a3c62a214442.png)
 
 
