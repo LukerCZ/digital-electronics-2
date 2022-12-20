@@ -50,8 +50,6 @@ Servomotor 2: Pin (9)
 
 Ground,Vcc: Power pins (+5V, GND)
 
-### LCD Display
-
 ### Servo motor SG90
 
 ![image](https://user-images.githubusercontent.com/99397107/208475296-6c30ba24-3230-40fc-b43e-f81d56fa7923.png)
@@ -88,8 +86,8 @@ In the code we used several libraries, which we used in computer exercises, e.g.
 
 ## References
 
-1. [Rotary encoder](https://howtomechatronics.com/tutorials/arduino/rotary-encoder-works-use-arduino/)  
+1. [doc.Tomas Fryza - Github repository](https://github.com/tomas-fryza/digital-electronics-2) 
 2. [Analog Joystick](https://www.electronicwings.com/arduino/analog-joystick-interfacing-with-arduino-uno)
-3. [doc.Tomas Fryza - Github repository](https://github.com/tomas-fryza/digital-electronics-2)
-4. [LCD Display TME.eu](https://www.tme.eu/en/details/410-142p/add-on-boards/digilent/pmodclp/)
-5. [Pmod CLP Digilent.com](https://digilent.com/reference/pmod/pmodclp/start)
+3. [Servomotor](https://navody.dratek.cz/arduino-projekty/servo-motor.html)
+
+
