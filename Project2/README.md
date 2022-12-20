@@ -42,14 +42,12 @@ Arduino UNO is main part of our project for practical solution. The board is bas
 
 #### In Project we are using these pins:
 
-Pins (4 to 7):
+Pin (8): Button
+Servomotor 1: Pin (9)
+Servomotor 2: Pin (9)
+Ground,Vcc: Power pins (+5V, GND)
 
 ### LCD Display
-
-In project we use Digilent Pmod CLP type of display.
-
-![image](https://user-images.githubusercontent.com/99397107/208475575-fb0275c5-837c-48a2-95b8-ad3fa28e1195.png)
-
 
 ### Servo motor SG90
 
